@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/main_wallpaper"
+    >
+
+
+
+    <Button
+        android:id="@+id/btn_startgame"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="@string/start_game"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_1o1"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="@string/one_on_one"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_highscore"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="@string/high_score"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_settings"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="@string/settings"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/info"
+        android:backgroundTint="@color/info"
+        android:onClick="InfoClick"
+        android:id="@+id/main_info">
+
+
+    </android.support.design.widget.FloatingActionButton>
+
+
+
+</LinearLayout>

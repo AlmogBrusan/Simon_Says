@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019246262821",
+    "firebase_url": "https://simonsaysproject-dd682.firebaseio.com",
+    "project_id": "simonsaysproject-dd682",
+    "storage_bucket": "simonsaysproject-dd682.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019246262821:android:3e2c5129aee41366",
+        "android_client_info": {
+          "package_name": "com.example.simonsaysproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019246262821-5ndu4gvn4k2jsril0f823mhenh7vpnim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simonsaysproject",
+            "certificate_hash": "67c952a1317d8a5d832f6c7fc14762da448cbe17"
+          }
+        },
+        {
+          "client_id": "1019246262821-4elmbjb6v16p032k7n0fc829ve27o6kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBDr7fc3Nly0OlsUZxfb4Eu6mCbVmHbcE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019246262821-4elmbjb6v16p032k7n0fc829ve27o6kj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

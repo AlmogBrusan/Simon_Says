@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Simon Says</string>
+    <string name="start_game">Start Game</string>
+    <string name="high_score">High Scores</string>
+    <string name="settings">Settings</string>
+    <string name="user">User: </string>
+    <string name="score">Score:</string>
+    <string name="setting_difficulty">Difficulty: </string>
+    <string name="setting_sound">Sound</string>
+    <string name="cpu_turn">See</string>
+    <string name="player_turn">Play</string>
+    <string name="enter_name">Enter your name </string>
+
+
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="one_on_one">One on one</string>
+    <string name="setting_music">Music</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Med.</string>
+    <string name="hard">Hard</string>
+    <string name="level">Level:</string>
+    <string name="round">Round:</string>
+    <string name="out_game">Your score will not be saved. Are you sure you want to leave?</string>
+    <string name="yes">Yes</string>
+    <string name="save_score_ask1">Your score is:</string>
+    <string name="info">In the game there are colored buttons that play music and change their color, you must repeat the rhythm exactly. In each round you will need to remember the previous rhythm and a new sound with its color so that in the following rounds you will need to remember more sounds and buttons. The game has three levels of different velocity and a different score. Try to bypass others and enter the high-score table.</string>
+    <string name="ok">OK</string>
+    <string name="language">Language</string>
+    <string name="add_step">Add a step</string>
+    <string name="save_score_ask3">" ,What would you like to do?"</string>
+    <string name="save_score_ask3_Y">High-Scores</string>
+    <string name="save_score_ask3_N">New game</string>
+    <string name="no_connection">No connection! Please connect to the Internet.</string>
+    <string name="server_problem">There is a temporary server problem.</string>
+    <string name="level_select">Level select</string>
+    <string name="no">No</string>
+    <string name="medium1">Medium</string>
+    <string name="is_winner">"The winner is: "</string>
+    <string name="replay">Replay</string>
+    <string name="finish">Finish</string>
+    <string name="levels_info">Before entering the game you can choose a difficulty level. The difficulty levels vary according to the speed of the rhythm that will be shown to you. At each level you will get a different score. The higher the level, the greater the number of points for each click.</string>
+    <string name="settings_info">You can choose to turn on or off the game sounds and background music.</string>
+    <string name="high_score_info">In the record table you can see the 15 players with the highest scores and the difficulty levels they played. Play and try to break records to appear high.</string>
+    <string name="name_toast">Please enter a name</string>
+    <string name="in_table">" Congratulations! You entered to high-scores table"</string>
+    <string name="not_in_table">" Your score is too low, keep playing."</string>
+    <string name="how_play">How to play?</string>
+    <string name="one_on_one_info">Choose who is \'player 1\' and who is \'player 2\'. The game begins when player 1 clicks a button. Then \'player 2\' should repeat the pressed button and add a step. Continue until one of the players does not remember the whole rhythm.</string>
+</resources>

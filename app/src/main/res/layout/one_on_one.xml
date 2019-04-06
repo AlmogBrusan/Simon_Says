@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneOnOne"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_no_colors"
+    android:id="@+id/container"
+
+    >
+
+    <include layout="@layout/player_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/player_bar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/player_bar"
+        android:layout_marginTop="15dp"
+           >
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/add_step_l">
+        <TextView
+            android:id="@+id/textView_1O1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="@string/add_step"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/layout_ripple_circle"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:gravity="center|bottom"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blue_button"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="2dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_button2"
+                    android:onClick="onClickButton" />
+
+                <TextView
+                    android:id="@+id/red_button"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="2dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_button1"
+                    android:backgroundTint="@color/tl_dark"
+                    android:onClick="onClickButton" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:gravity="center|top"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/green_button"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="3dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_button4"
+                    android:onClick="onClickButton" />
+
+                <TextView
+                    android:id="@+id/yellow_button"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/rounded_button3"
+                    android:onClick="onClickButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

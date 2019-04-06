@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings"
+    android:background="@drawable/wallpaper_no_logo">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:orientation="horizontal"
+    android:background="@color/clear2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/settings"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:shadowColor="#000000"
+        android:shadowDx="2.8"
+        android:shadowDy="2.8"
+        android:shadowRadius="3.0"
+        android:textAllCaps="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/info_selctor"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/setting_info"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:background="@drawable/layout_ripple"
+        android:backgroundTint="@color/clear1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="casual"
+            android:text="@string/setting_sound"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/setting_sfx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:checked="true"
+            android:fontFamily="casual"
+            android:splitTrack="false"
+            android:switchMinWidth="50dp"
+            android:switchPadding="10dp"
+
+             />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+           >
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="casual"
+                android:text="@string/setting_music"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/setting_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:checked="true"
+                android:fontFamily="casual"
+                android:showText="false"
+                android:splitTrack="false"
+                android:switchMinWidth="50dp"
+                android:switchPadding="10dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

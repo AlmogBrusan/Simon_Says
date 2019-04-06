@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#505454</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="tl_light">#ff0000</color>
+    <color name="tl_dark_s">#B0FF0000</color>
+    <color name="tl_dark">#7EFF0000</color>
+
+    <color name="tr_light">#3649d4</color>
+    <color name="tr_dark_s">#B03649d4</color>
+    <color name="tr_dark">#7E3649d4</color>
+
+    <color name="bl_light">#fcce07</color>
+    <color name="bl_dark_s">#B0fcce07</color>
+    <color name="bl_dark">#7Efcce07</color>
+
+    <color name="br_light">#1baf1b</color>
+    <color name="br_dark_s">#B01baf1b</color>
+    <color name="br_dark">#7E1baf1b</color>
+
+    <color name="colorRipple">#c7c4c4</color>
+    <color name="clear1">#c5ffffff</color>
+    <color name="clear2">#59ffffff</color>
+    <color name="clear3">#edffffff</color>
+    <color name="easy">#C52F971C</color>
+    <color name="medium">#c5f29b04</color>
+    <color name="hard">#c5de0707</color>
+    <color name="clear_for_main">#d0454444</color>
+
+    <color name="test">#D0A29898</color>
+
+    <color name="info">#C3FA9308</color>
+    <color name="textSplash">#696868</color>
+    <color name="circle_background">#AE696565</color>
+    <color name="circle_background_s">#A3413F3F</color>
+
+
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>
